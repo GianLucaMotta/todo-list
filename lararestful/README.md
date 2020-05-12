@@ -1,4 +1,4 @@
-Ao clonar o projeto laravel deverá realizar algumas configurações.
+﻿Ao clonar o projeto laravel deverá realizar algumas configurações.
       1 - Aconselhavelmente, em '.env' e '.env.example', localizados na raiz do projeto, 
             altere as linhas referentes ao banco de dados local, ficando da seguinte forma:
                   DB_CONNECTION=mysql
@@ -9,7 +9,7 @@ Ao clonar o projeto laravel deverá realizar algumas configurações.
                   DB_PASSWORD=
             Observando que 'DB_HOST', 'DB_PORT' 'DB_USERNAME' e 'DB_PASSWORD' devem ser inseridas conforme seu banco de dados mysql local.
       
-      2 - No seu banco de dados local executar o script sql 'create.sql', ele irá criar a base de dados chamada 'laravel' e a tabela denominada 'tasks'.
+      2 - No seu banco de dados local executar o script sql 'banco.sql', ele irá criar a base de dados chamada 'laravel' e a tabela denominada 'tasks'.
 
       3 - Após o banco criado, deverá executar o comando: 
             'php artisan serve'
