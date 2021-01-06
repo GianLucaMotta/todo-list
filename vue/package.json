@@ -11,7 +11,7 @@
     "@agametov/vueditor": "^0.4.1",
     "@chenfengyuan/vue-countdown": "^1.1.2",
     "apexcharts": "^3.8.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "bootstrap-vue": "^2.0.0-rc.27",
